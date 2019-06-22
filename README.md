@@ -9,8 +9,8 @@ Timeline component that can be used for:
   - It can be used for ToDo list apps and similar ones. 
 
 
-<img src="https://raw.githubusercontent.com/ammarRajabA/ReactNative-SwipeTimeline/master/example/Screenshot_20190622-201740.png?token=AEFYI2LMTRFSPH6DOWJUW3C5BZSB6" width="400">|<img src="https://raw.githubusercontent.com/ammarRajabA/ReactNative-SwipeTimeline/master/example/Screenshot_20190622-201802.png?token=AEFYI2OQR3N3BXXGCPWIQEC5BZSII" width="400">
-<img src="https://raw.githubusercontent.com/ammarRajabA/ReactNative-SwipeTimeline/master/example/Screenshot_20190622-201810.png?token=AEFYI2JUG6G26OTUV7RPWXC5BZSJU" width="400">|<img src="https://raw.githubusercontent.com/ammarRajabA/ReactNative-SwipeTimeline/master/example/Screenshot_20190622-201823.png?token=AEFYI2JNENBBLGRZ22TVJDC5BZSK2" width="400">
+<img src="https://github.com/ammarRajabA/ReactNative-SwipeTimeline/raw/master/example/Screenshot_20190622-201740.png" width="400">|<img src="https://github.com/ammarRajabA/ReactNative-SwipeTimeline/raw/master/example/Screenshot_20190622-201802.png" width="400">
+<img src="https://github.com/ammarRajabA/ReactNative-SwipeTimeline/raw/master/example/Screenshot_20190622-201810.png" width="400">|<img src="https://github.com/ammarRajabA/ReactNative-SwipeTimeline/raw/master/example/Screenshot_20190622-201823.png" width="400">
 
 ## Usage
 ### data
