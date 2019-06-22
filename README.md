@@ -13,6 +13,7 @@ Timeline component that can be used for:
 <img src="https://github.com/ammarRajabA/ReactNative-SwipeTimeline/raw/master/example/Screenshot_20190622-201810.png" width="400">|<img src="https://github.com/ammarRajabA/ReactNative-SwipeTimeline/raw/master/example/Screenshot_20190622-201823.png" width="400">
 
 ## Usage
+Props are : data, itemKey, preview, dateStripe, onDateSelected, onThumbnailPressed, onCardPress, onCardOpen, onAction
 ### data
   - Define *Data* as array of JSON objects which are the data you want to show in timeline, as the following structure (all mandatory unless mentioned not - You can experiment and change as you want):
     - id : Number
