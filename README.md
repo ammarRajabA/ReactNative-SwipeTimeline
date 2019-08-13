@@ -57,4 +57,7 @@ Parameters: (item, action)
 
 ___________________________________________
 
+## React-Native app repo:
+https://github.com/ammarRajabA/SwipeTimeline
+
 ***Note*** There's a provided example.
