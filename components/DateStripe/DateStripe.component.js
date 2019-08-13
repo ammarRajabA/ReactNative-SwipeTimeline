@@ -128,7 +128,7 @@ export default class DateStripe extends Component{
 				<ScrollView ref={(ref)=>this.dateStripeScrollView=ref} onScroll={this.handleScroll} horizontal={true} removeClippedSubviews={true} showsHorizontalScrollIndicator={false} snapToAlignment={'center'} pagingEnabled={false} contentContainerStyle={{ width:'1400%' }} style={{width:'100%',height:'100%'}} scrollEnabled>
 					    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()-21+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()-21+index)).toDateString())){
 		                			return this.renderHighlighted(day)
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,-21)
@@ -138,7 +138,7 @@ export default class DateStripe extends Component{
 		        	
 		        	    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()-14+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()-14+index)).toDateString())){
 		                			return this.renderHighlighted(day,this.props.currentDate.getDate())
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,-14)
@@ -147,7 +147,7 @@ export default class DateStripe extends Component{
 		                }
 		        	    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()-7+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()-7+index)).toDateString())){
 		                			return this.renderHighlighted(day)
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,-7)
@@ -156,7 +156,7 @@ export default class DateStripe extends Component{
 		                }
 		        	    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()+index)).toDateString())){
 		                			return this.renderHighlighted(day)
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,0)
@@ -165,7 +165,7 @@ export default class DateStripe extends Component{
 		                }
 		        	    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()+7+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()+7+index)).toDateString())){
 		                			return this.renderHighlighted(day)
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,+7)
@@ -174,7 +174,7 @@ export default class DateStripe extends Component{
 		                }
 		        	    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()+14+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()+14+index)).toDateString())){
 		                			return this.renderHighlighted(day)
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,+14)
@@ -183,7 +183,7 @@ export default class DateStripe extends Component{
 		                }
 		        	    {
 		                	days.map((day,index)=>{
-		                		if (this.props.currentDate.toDateString()===(new Date(new Date().setDate(this.SundayDate.getDate()+21+index)).toDateString())){
+		                		if (this.props.currentDate.toDateString()===(new Date(new Date(this.SundayDate).setDate(this.SundayDate.getDate()+21+index)).toDateString())){
 		                			return this.renderHighlighted(day)
 		                		}else{
 		                			return this.renderDay(day,this.SundayDate,index,+21)
